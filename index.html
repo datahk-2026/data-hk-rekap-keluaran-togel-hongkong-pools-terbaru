@@ -258,6 +258,47 @@ inset:0;
 background:linear-gradient(to bottom,rgba(0,0,0,.05),rgba(0,0,0,.18));
 pointer-events:none
 }
+  .hk-share-wrap{
+margin-top:22px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:9px
+}
+.hk-share-title{
+grid-column:1/-1;
+font-size:13px;
+font-weight:700;
+color:#5d463a;
+margin-bottom:2px
+}
+.hk-share{
+display:flex;
+align-items:center;
+justify-content:center;
+min-height:38px;
+border:1px solid rgba(126,78,52,.22);
+background:#f8f1e9;
+color:#9a3d08;
+font-size:13px;
+font-weight:700;
+text-align:center
+}
+.hk-share:hover{
+text-decoration:none;
+background:#fff8f1
+}
+.hk-share.fb{color:#1877f2}
+.hk-share.x{color:#111}
+.hk-share.wa{color:#128c7e}
+.hk-share.in{color:#0a66c2}
+.hk-share.rd{color:#ff4500}
+.hk-share.tg{color:#229ed9}
+
+@media(max-width:480px){
+.hk-share-wrap{
+grid-template-columns:1fr
+}
+}
 </style>
 </head>
 
@@ -274,57 +315,107 @@ pointer-events:none
 <div class="hk-profile-body">
 <h1 class="hk-title">Data HK</h1>
 <div class="hk-meta">
-Rekap Keluaran Hongkong Pools<br>
-2023 sampai 2026<br>
-GitHub Pages Profile
+Arsip Keluaran Hongkong Pools<br>
+Rekap Data 2023 sampai 2026<br>
+Disusun Rapi untuk Referensi Harian
 </div>
-<p class="hk-desc">Profil rujukan Data HK untuk merapikan arsip keluaran Hongkong Pools, link utama, dan informasi pendukung dalam satu halaman ringan.</p>
-<a class="hk-share" href="https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/">Share</a>
+
+<p class="hk-desc">
+Data HK disajikan sebagai catatan ringkas mengenai hasil keluaran Hongkong Pools dari waktu ke waktu. Halaman ini dibuat dengan susunan sederhana agar pembaca dapat menemukan arsip, rujukan, dan informasi terkait secara lebih mudah.
+</p>
+
+<div class="hk-share-wrap">
+  <span class="hk-share-title">Bagikan halaman:</span>
+
+  <a class="hk-share fb" href="https://www.facebook.com/sharer/sharer.php?u=https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/" target="_blank" rel="noopener noreferrer">Facebook</a>
+
+  <a class="hk-share x" href="https://twitter.com/intent/tweet?url=https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/&text=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">X</a>
+
+  <a class="hk-share wa" href="https://api.whatsapp.com/send?text=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru%20https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+
+  <a class="hk-share in" href="https://www.linkedin.com/sharing/share-offsite/?url=https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+  <a class="hk-share rd" href="https://www.reddit.com/submit?url=https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/&title=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">Reddit</a>
+
+  <a class="hk-share tg" href="https://t.me/share/url?url=https://datahk-2026.github.io/Data-HK-Rekap-Keluaran-Togel-Hongkong-Pools-Terbaru/&text=Data%20HK%20-%20Rekap%20Keluaran%20Hongkong%20Pools%20Terbaru" target="_blank" rel="noopener noreferrer">Telegram</a>
 </div>
 </section>
 
 <section class="hk-card hk-section" id="links">
-<h2>Links</h2>
+<h2>Web Partner</h2>
 
 <div class="hk-link">
-<a class="hk-link-img" href="https://data-hk.store/" target="_blank" rel="noopener">
+<a class="hk-link-img" href="/" target="_blank" rel="noopener noreferrer">
 <img src="link-data-hk.jpg" alt="Data HK">
 </a>
-<div class="hk-link-info">
-<h3><a href="https://data-hk.store/" target="_blank" rel="noopener">Data HK ↗</a></h3>
-<p>Halaman utama untuk melihat rekap hasil pengeluaran Hongkong Pools dengan tampilan ringkas dan mudah dibaca.</p>
-</div>
-</div>
 
-<div class="hk-link">
-<a class="hk-link-img" href="https://datahk1.site/" target="_blank" rel="noopener">
-<img src="link-data-hk.jpg" alt="Data HK 2026">
+<div class="hk-link-info">
+<h3>
+<a href="https://data-hongkong.site/" target="_blank" rel="noopener noreferrer">
+Data HK ↗
 </a>
-<div class="hk-link-info">
-<h3><a href="https://datahk1.site/" target="_blank" rel="noopener">Data HK 2026 ↗</a></h3>
-<p>Rujukan arsip Data HK terbaru untuk tahun 2026 dengan susunan informasi yang sederhana dan cepat diakses.</p>
+</h3>
+
+<p>
+Website <strong>Data HK</strong> menyajikan arsip hasil keluaran Hongkong Pools yang diperbarui secara berkala dengan tampilan sederhana, ringan, dan mudah dipahami oleh pengunjung dari berbagai perangkat.
+</p>
 </div>
 </div>
 
 <div class="hk-link">
-<a class="hk-link-img" href="https://datahk-lotto.site/" target="_blank" rel="noopener">
+<a class="hk-link-img" href="/" target="_blank" rel="noopener noreferrer">
 <img src="link-data-hk.jpg" alt="Data HK Lotto">
 </a>
+
 <div class="hk-link-info">
-<h3><a href="https://datahk-lotto.site/" target="_blank" rel="noopener">Data HK Lotto ↗</a></h3>
-<p>Link pendukung untuk informasi Hongkong Lotto, arsip result, dan halaman rujukan terkait.</p>
+<h3>
+<a href="https://datahklotto.space/" target="_blank" rel="noopener noreferrer">
+Data HK Lotto ↗
+</a>
+</h3>
+
+<p>
+Halaman <strong>Data HK Lotto</strong> dibuat sebagai referensi tambahan untuk melihat riwayat angka Hongkong Lotto lengkap dengan penyusunan data yang rapi dan mudah ditelusuri setiap harinya.
+</p>
 </div>
 </div>
 
 <div class="hk-link">
-<a class="hk-link-img" href="https://data-sdy.site/" target="_blank" rel="noopener">
+<a class="hk-link-img" href="/" target="_blank" rel="noopener noreferrer">
 <img src="link-data-hk.jpg" alt="Data SDY">
 </a>
+
 <div class="hk-link-info">
-<h3><a href="https://data-sdy.site/" target="_blank" rel="noopener">Data SDY ↗</a></h3>
-<p>Rujukan tambahan untuk pengunjung yang juga mencari arsip Sydney Pools dalam format ringkas.</p>
+<h3>
+<a href="https://datasdypools.com/" target="_blank" rel="noopener noreferrer">
+Data SDY ↗
+</a>
+</h3>
+
+<p>
+Situs <strong>Data SDY</strong> menyediakan rangkuman hasil Sydney Pools dengan format tabel yang disusun agar pembaca dapat memeriksa arsip result secara lebih cepat dan nyaman.
+</p>
 </div>
 </div>
+
+<div class="hk-link">
+<a class="hk-link-img" href="/" target="_blank" rel="noopener noreferrer">
+<img src="link-data-hk.jpg" alt="Data SDY Lotto">
+</a>
+
+<div class="hk-link-info">
+<h3>
+<a href="https://datasydneylotto.website/" target="_blank" rel="noopener noreferrer">
+Data SDY Lotto ↗
+</a>
+</h3>
+
+<p>
+<strong>Data SDY Lotto</strong> menjadi halaman pendukung yang memuat arsip Sydney Lotto terbaru dengan gaya tampilan modern, ringan, dan lebih mudah diakses melalui perangkat mobile maupun desktop.
+</p>
+</div>
+</div>
+
 </section>
 
 <section class="hk-card hk-section">
@@ -344,14 +435,16 @@ GitHub Pages Profile
 
 <blockquote>Catatan: halaman ini bersifat arsip dan informasi. Gunakan data secara bijak dan selalu ikuti aturan yang berlaku di wilayah masing-masing.</blockquote>
 
-<h2>Apakah GitHub Pages Bisa Menjadi Backlink Profil?</h2>
-<p>GitHub Pages bisa dipakai sebagai halaman publik untuk membuat profil rujukan dan menampilkan link menuju website utama. Namun, nilainya sebaiknya dipahami sebagai profil pendukung, bukan jaminan otomatis menaikkan ranking.</p>
+<h2>Catatan Mengenai Halaman Profil Data HK</h2>
+<p>Halaman ini dibuat sebagai ruang pengantar yang menata beberapa rujukan penting mengenai Data HK. Dengan susunan seperti profil, pembaca dapat mengenali tujuan halaman, melihat daftar tautan yang berkaitan, lalu membaca penjelasan singkat sebelum menuju sumber utama.</p>
 
-<p>Struktur seperti ini lebih aman dibanding halaman kosong yang hanya berisi banyak link. Dengan artikel, deskripsi, gambar, dan susunan profil yang natural, halaman terlihat lebih informatif serta memiliki alasan yang jelas mengapa tautan tersebut ditampilkan.</p>
+<p>Penyusunan semacam ini lebih nyaman dibaca dibanding halaman yang hanya dipenuhi tautan. Sebuah halaman yang baik seharusnya memiliki pembuka, konteks, keterangan yang jelas, serta rujukan yang ditempatkan secara wajar.</p>
+
+<p>Dalam pengelolaan situs, halaman profil seperti ini dapat membantu memperkenalkan sebuah website kepada pembaca baru. Nilainya bukan hanya pada tautan, tetapi juga pada kerapian informasi, keterbacaan, dan kesesuaian topik yang dibahas.</p>
 </article>
 
 <section class="hk-card hk-section" id="arsip">
-<h2>Ringkasan Arsip</h2>
+<h3>Ringkasan Arsip</h3>
 <div class="hk-archive">
 <div class="hk-year"><strong>2023</strong><span>Arsip Awal</span></div>
 <div class="hk-year"><strong>2024</strong><span>Data Lanjutan</span></div>
@@ -361,7 +454,7 @@ GitHub Pages Profile
 </section>
 
 <section class="hk-card hk-section">
-<h2>Interests</h2>
+<h4>Interests</h4>
 <div class="hk-tags">
 <span>Data HK</span>
 <span>Hongkong Pools</span>
