@@ -238,6 +238,19 @@ padding:0 18px 40px
 .hk-gallery{grid-template-columns:repeat(2,1fr)}
 .hk-archive{grid-template-columns:repeat(2,1fr)}
 }
+  .hk-profile-cover{
+height:150px;
+position:relative;
+overflow:hidden;
+background:#d8c5b8
+}
+.hk-profile-cover img{
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
+filter:contrast(1.02) saturate(1.05)
+}
 </style>
 </head>
 
@@ -245,7 +258,9 @@ padding:0 18px 40px
 <main class="hk-page">
 
 <section class="hk-card hk-profile">
-<div class="hk-profile-cover"></div>
+<div class="hk-profile-cover">
+  <img src="cover-data-hk.jpg" alt="Cover Data HK">
+</div>
 <div class="hk-avatar">
 <img src="avatar-data-hk.webp" alt="Data HK Profile">
 </div>
